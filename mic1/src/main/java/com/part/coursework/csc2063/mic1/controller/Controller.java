@@ -30,10 +30,9 @@ public class Controller {
     }
 
     public Lecturers getLecturers() {
-        return lecturers;
+    	return lecturers;
+    	
     }
-
-    // --- Student operations (UML) ---
 
     public void enrolStudent(Student student, com.part.coursework.csc2063.mic1.stubs.mic2.students.ModuleCode moduleCode) {
         if (student == null || moduleCode == null) return;
@@ -55,7 +54,6 @@ public class Controller {
         student.unregisterGrade(moduleCode);
     }
 
-    // --- Lecturer operations (UML) ---
 
     public void addLecturer(Lecturer lecturer) {
         if (lecturer == null) return;

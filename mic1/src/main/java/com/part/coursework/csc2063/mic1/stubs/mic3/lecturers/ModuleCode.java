@@ -1,6 +1,11 @@
 package com.part.coursework.csc2063.mic1.stubs.mic3.lecturers;
 
-public class ModuleCode {
-	
-
+public enum ModuleCode {
+    CSC2063,
+    CSC2001,
+    CSC2002,
+    CSC3001,
+    CSC3002,
+    CSC4001,
+    CSC4002
 }
