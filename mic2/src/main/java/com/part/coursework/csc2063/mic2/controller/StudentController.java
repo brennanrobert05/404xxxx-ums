@@ -54,7 +54,6 @@ public class StudentController {
         Student s = students.get(id);
 
         if (s == null) return "not found";
-
         s.unenrolModule(module);
         return "removed";
         
